@@ -165,4 +165,8 @@ const server = app.listen(config.port, () => {
   logger.info(`🌍 Frontend URL: ${config.frontendUrl}`);
 });
 
+app.get('/', (req, res) => {
+  res.status(200).json({ message: "API is running successfully" });
+});
+
 export default app;

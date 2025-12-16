@@ -122,12 +122,13 @@ export const corsOptions = {
             'http://127.0.0.1:3000'
         ];
 
-        // In development, allow requests with no origin (like Postman, mobile apps)
-        // In production, be more strict
-        if (!origin && config.nodeEnv === 'development') {
+        // Allow requests with no origin (health checks, direct API calls, Postman, mobile apps, etc.)
+        // This is safe because CORS only affects browser-based requests
+        if (!origin) {
             return callback(null, true);
         }
 
+        // Check if origin is in allowed list
         if (allowedOrigins.includes(origin)) {
             callback(null, true);
         } else {

@@ -92,6 +92,13 @@ app.get('/api', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'OK',
+    service: 'Tamizh Karai API',
+    message: 'API is running 🚀'
+  });
+});
 // Database Connection
 mongoose
   .connect(config.mongoUri)
@@ -165,13 +172,7 @@ const server = app.listen(config.port, () => {
   logger.info(`🌍 Frontend URL: ${config.frontendUrl}`);
 });
 
-app.get('/', (req, res) => {
-  res.status(200).json({
-    status: 'OK',
-    service: 'Tamizh Karai API',
-    message: 'API is running 🚀'
-  });
-});
+
 
 
 export default app;

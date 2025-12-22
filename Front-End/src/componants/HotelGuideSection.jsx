@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Hotel, User, Star, MapPin, Phone, Mail, Award } from 'lucide-react';
 import { Badge } from "./ui/Badge";
-import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar.jsx';
 import ImageWithFallback from "./figma/ImageWithFallback";
 
 const hotels = [

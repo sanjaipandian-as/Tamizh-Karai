@@ -33,7 +33,7 @@ import Label from '../componants/ui/Label';
 import Textarea from '../componants/ui/TextArea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../componants/ui/Select';
 import { Card } from '../componants/ui/Card';
-import { Avatar, AvatarFallback, AvatarImage } from '../componants/ui/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from "../componants/ui/Avatar";
 import { Badge } from '../componants/ui/Badge';
 import Separator from '../componants/ui/Separator';
 import { Switch } from '../componants/ui/Switch';

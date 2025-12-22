@@ -4,7 +4,7 @@ import { Button } from '../componants/ui/Button'
 import { Input } from '../componants/ui/Input'
 import Label from '../componants/ui/Label'
 import { Card } from '../componants/ui/Card'
-import { Avatar, AvatarFallback, AvatarImage } from '../componants/ui/avatar'
+import { Avatar, AvatarFallback, AvatarImage } from "../componants/ui/Avatar"
 import Separator from '../componants/ui/Separator'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../componants/ui/Tabs'
 import { Badge } from '../componants/ui/Badge'

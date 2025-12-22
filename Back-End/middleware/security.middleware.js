@@ -120,7 +120,7 @@ export const corsOptions = {
             'http://localhost:3000',
             'http://127.0.0.1:5173',
             'http://127.0.0.1:3000',
-            'https://tamizhkarai.vercel.app/'
+            'https://tamizhkarai.vercel.app'
         ];
 
         // Allow requests with no origin (health checks, direct API calls, Postman, mobile apps, etc.)

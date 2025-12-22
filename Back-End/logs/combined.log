@@ -68,3 +68,7 @@
 {"level":"info","message":"🌍 Frontend URL: http://localhost:5173","service":"tamizh-karai-api","timestamp":"2025-12-22 10:24:55"}
 {"level":"info","message":"✅ Database Connected Successfully","service":"tamizh-karai-api","timestamp":"2025-12-22 10:24:57"}
 {"level":"info","message":"📊 Database: TamizhKarai","service":"tamizh-karai-api","timestamp":"2025-12-22 10:24:57"}
+{"level":"info","message":"🚀 Server running in development mode on port 8000","service":"tamizh-karai-api","timestamp":"2025-12-22 10:26:02"}
+{"level":"info","message":"🌍 Frontend URL: https://tamizhkarai.vercel.app","service":"tamizh-karai-api","timestamp":"2025-12-22 10:26:02"}
+{"level":"info","message":"✅ Database Connected Successfully","service":"tamizh-karai-api","timestamp":"2025-12-22 10:26:05"}
+{"level":"info","message":"📊 Database: TamizhKarai","service":"tamizh-karai-api","timestamp":"2025-12-22 10:26:05"}

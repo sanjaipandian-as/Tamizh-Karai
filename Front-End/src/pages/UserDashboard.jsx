@@ -101,7 +101,7 @@ export default function UserDashboard() {
               <Avatar className="w-10 h-10">
                 <AvatarImage />
                 <AvatarFallback className="text-lg bg-black/30 text-white">
-                  {userData?.fullName?.[0]}
+                  {userData?.fullName?.[0] || 'U'}
                 </AvatarFallback>
               </Avatar>
               <Button
@@ -123,12 +123,12 @@ export default function UserDashboard() {
                 <Avatar className="w-20 h-20">
                   <AvatarImage />
                   <AvatarFallback className="text-4xl text-white bg-black/30">
-                    {userData.fullName[0]}
+                    {userData?.fullName?.[0] || 'U'}
                   </AvatarFallback>
                 </Avatar>
                 <div className="flex-1">
-                  <h1 className="text-2xl font-bold text-white mb-1">{userData.fullName}</h1>
-                  <p className="text-neutral-400 font-medium mb-2">{userData.email}</p>
+                  <h1 className="text-2xl font-bold text-white mb-1">{userData?.fullName || 'User'}</h1>
+                  <p className="text-neutral-400 font-medium mb-2">{userData?.email || ''}</p>
                   <div className="flex gap-4">
                     <div>
                       <span className="text-neutral-400 text-sm">Total Picks: </span>
@@ -251,11 +251,11 @@ export default function UserDashboard() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label>Full Name</Label>
-                      <Input defaultValue={userData.fullName} className="bg-neutral-800/50 border-neutral-700/50" />
+                      <Input defaultValue={userData?.fullName || ''} className="bg-neutral-800/50 border-neutral-700/50" />
                     </div>
                     <div className="space-y-2">
                       <Label>Email</Label>
-                      <Input defaultValue={userData.email} className="bg-neutral-800/50 border-neutral-700/50" />
+                      <Input defaultValue={userData?.email || ''} className="bg-neutral-800/50 border-neutral-700/50" />
                     </div>
                   </div>
                 </Card>

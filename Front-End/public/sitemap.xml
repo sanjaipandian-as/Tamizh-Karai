@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://tamizhkarai.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://tamizhkarai.vercel.app/Places</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tamizhkarai.vercel.app/Hotels</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tamizhkarai.vercel.app/TamizhkaraiBot</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tamizhkarai.vercel.app/About-us</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tamizhkarai.vercel.app/community-picks</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

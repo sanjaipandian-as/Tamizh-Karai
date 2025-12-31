@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /Login-page
+Disallow: /Signup-page
+Disallow: /API/
+Disallow: /user-Dashboard
+Disallow: /API/Tamizhkarai/Admin-Dashboard
+
+Sitemap: https://tamizhkarai.vercel.app/sitemap.xml

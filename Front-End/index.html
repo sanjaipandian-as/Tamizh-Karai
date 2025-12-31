@@ -2,12 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml+ico" href="/klogo.ico"/>
+    <link rel="icon" type="image/x-icon" href="/klogo.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tamizh Karai</title>
+
+    <title>Tamizh Karai | Explore Tamil Nadu Culture, Travel & Heritage</title>
+
+    <meta
+      name="description"
+      content="Tamizh Karai helps you explore Tamil Nadu like never before. Discover temples, beaches, hill stations, culture, food, and unforgettable travel experiences."
+    />
+
+    <link rel="canonical" href="https://tamizhkarai.vercel.app/" />
+
+    <meta property="og:title" content="Tamizh Karai | Explore Tamil Nadu" />
+    <meta
+      property="og:description"
+      content="Discover ancient temples, scenic beaches, hill stations, and vibrant Tamil culture with Tamizh Karai."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tamizhkarai.vercel.app/" />
+    <meta property="og:image" content="https://tamizhkarai.com/og.webp" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tamizh Karai" />
+    <meta
+      name="twitter:description"
+      content="Your gateway to Tamil Nadu travel, culture, and heritage."
+    />
+    <meta name="twitter:image" content="https://tamizhkarai.com/og.webp" />
+
+    <link rel="preload" as="image" href="/assets/Hero.webp" fetchpriority="high" />
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- BRAND SCHEMA (VERY IMPORTANT) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Tamizh Karai",
+      "url": "https://tamizhkarai.com",
+      "logo": "https://tamizhkarai.com/klogo.ico",
+      "description": "Tamizh Karai is a Tamil Nadu tourism platform for exploring temples, beaches, hill stations, culture and travel experiences."
+    }
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
